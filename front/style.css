@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+     
+body {
+    background-color: rgb(9, 8, 8);
+    color: #d4af37;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgHeader{
+    width: 80%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+    
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.btn {
+    background-color: #087108;
+    color: white;
+    font-size: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(6, 55, 15, 0.79);
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0b3d0b;
+}
+
+hr {
+    width: 90%;
+    border: 1px solid rgba(0, 200, 37, 0.79);
+    border-top: 3px solid rgba(0, 200, 37, 0.79); 
+    margin: 20px 0;
+}
+
+
+@media (max-width: 768px) {
+    .imgHeader, .imgBody {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .imgHeader, .imgBody {
+        width: 100px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}

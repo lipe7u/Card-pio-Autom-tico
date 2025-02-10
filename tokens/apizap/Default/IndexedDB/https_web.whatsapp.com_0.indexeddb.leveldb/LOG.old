@@ -1,0 +1,4 @@
+2025/02/10-00:50:19.243 ee8 Reusing MANIFEST C:\Users\usuario\Desktop\Carreira Back-end\Cardapio\tokens\apizap\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/10-00:50:19.244 ee8 Recovering log #2568
+2025/02/10-00:50:19.255 ee8 Reusing old log C:\Users\usuario\Desktop\Carreira Back-end\Cardapio\tokens\apizap\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/002568.log 
+2025/02/10-00:50:20.545 44a8 Manual compaction at level-0 from '\x00"\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00#\x00\x00\x00' @ 0 : 0; will stop at (end)
