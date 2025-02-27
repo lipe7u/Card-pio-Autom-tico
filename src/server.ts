@@ -46,7 +46,7 @@ app.post("/cardapio", async (req, res) => {
 
     
     const mensagem = `📢 *Aviso Importante*\n\nOlá, queridos alunos!\n\nAqui está o cardápio de hoje:\n\n🍽️ *Manhã:*\n${morning}\n\n🍽️ *Almoço:*\n${lunch}\n\n🍽️ *Tarde:*\n${afternoon}\n\nAproveitem as refeições e tenham um ótimo dia! 😊\n\nAtenciosamente,\nEEEP MANUEL ABDIAS EVANGELISTA`;
-    const idGrupo = "5588997996851@c.us"; 
+    const idGrupo = "#id do grupo que você deseja enviar a mensagem"; // id do grupo que você deseja enviar a mensagem
 
     if (cliente) {
       cliente.sendText(idGrupo, mensagem)
